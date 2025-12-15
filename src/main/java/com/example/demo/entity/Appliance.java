@@ -9,11 +9,10 @@ public class Appliance {
 
     public Appliance(){}
     public Appliance(long id,String applianceName,Double wattage,Double usageHoursPerDay,User user){
-        this.id=id;
         this.applianceName=applianceName;
         this.wattage=wattage;
         this.usageHoursPerDay=usageHoursPerDay;
         this.user=user;
     }
-    
+
 }
